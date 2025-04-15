@@ -16,17 +16,3 @@ The pipeline consists of three main steps:
 
 ---
 
-## Folder Structure
-
-```plaintext
-.
-├── COBRE_VBM_3D/          # Processed VBM data for all participants
-├── GLM_Analysis/          # Output from GLM statistical analysis
-│   ├── group_difference.nii.gz   # Voxel-wise statistical map
-│   ├── scripts/                   # GLM implementation scripts
-├── Machine_Learning_Model/  # Files related to classification model
-│   ├── data_preprocessing.py     # Preprocessing pipeline for VBM data
-│   ├── train_model.py            # Script for training the classifier
-│   ├── predict.py                # Script for predicting diagnoses
-│   ├── models/                   # Saved trained models
-├── README.md            # Project documentation (this file)
